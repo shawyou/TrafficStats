@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="app名字"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/resetTrafficStatsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="应用流量统计清零并且开始统计"/>
+
+    <Button
+        android:id="@+id/refleshTrafficStatsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="刷新应用流量统计结果"/>
+
+    <TextView
+        android:id="@+id/trafficStatsTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="目前所跑流量为："
+        android:textSize="20dp"/>
+
+</LinearLayout>
